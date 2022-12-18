@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#Container_Master {
+    background-color: #f2f2f2;
+    padding-top: 15PX;
+    width: 100%;
+    height: 100%;
+}
+#Content{
+    background-color: #ffffff;
+    margin-left: 1%;
+    width: 98%;
+}
+#Header{
+    background-color: #ece2d6;
+    height: 182px;
+}
+#Header  #Arrows img {
+    margin-left: 50%;
+}
+#Header  #Triangle img {
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+#Header #Logo_Bolls {
+    display: flex;
+}
+#Header #Bolls img {
+    margin-left: 10px;
+}
+#Header #Logo_Manda img{
+    margin-left: 0px;
+    margin-top: -5px;
+}
+#Header #Text {
+    margin-top: -90px;
+    margin-right: 53px;
+    float: right;
+    width: 200px;
+}
+#Header #Text img {
+    width: 200px;
+}
+
+#Woman {
+    width: 200px;
+    margin-top: -112px;
+    margin-left: 50%;
+}
+@media(max-width: 600px){
+    #Woman {
+        display: none;
+    }
+}
+@media(max-width: 768px){
+    #Woman {
+        display: none;
+    }
+}
+@media(max-width: 992px){
+    #Woman {
+        display: none;
+    }
+}
