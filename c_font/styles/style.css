@@ -31,13 +31,14 @@
 }
 #Header #Bolls img {
     margin-left: 10px;
+    margin-top: 10px;
 }
 #Header #Logo_Manda img{
     margin-left: 0px;
     margin-top: -5px;
 }
 #Header #Text {
-    margin-top: -90px;
+    margin-top: -110px;
     margin-right: 53px;
     float: right;
     width: 200px;
