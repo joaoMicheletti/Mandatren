@@ -52,18 +52,183 @@
     margin-top: -112px;
     margin-left: 50%;
 }
+#NFR_Vision {
+    width: 100%;
+    text-align: center;
+}
+#NFR_Vision #Banner {
+    width: 80%;
+    margin-left: 10%;
+}
+#NFR_Vision #Banner #Banner_img {
+    width: 100%;
+}
+#Title {
+    width: 80%;
+    margin-left: 10%;
+}
+#Primary {
+    margin-top: 15px;
+}
+h5 {
+    margin-top: 15px;
+}
+#Fonte {
+    margin-top: 5px;
+    color: #b2b2b2;
+    font-style: italic;
+}
+#NBA_Whatsapp {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    width: 80%;
+    display: flex;
+}
+#NBA_Whatsapp #NBA {
+    margin-right: 20%;
+    width: 40%;
+}
+#NBA_Whatsapp #Whatsapp {
+    width: 40%;
+}
+
+#Bar_orange{
+    background-color: #fc4c02;
+    text-align: center;
+    width: 100%;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media(max-width:528px) {
+    #Header #Text {
+        display: none;
+    }
+    #NBA_Whatsapp {
+        width: 80%;
+    }
+    #NBA_Whatsapp #NBA {
+        margin-right: 0;
+        width: 50%;
+    }
+    #NBA_Whatsapp #NBA #NBA_img {
+        height: 135px;
+        width: 100%;
+    }
+    #NBA_Whatsapp #NBA #Bar_NBA {
+        width: 80%;
+    }
+    #NBA_Whatsapp #Whatsapp {
+        width: 50%;
+    }
+    #NBA_Whatsapp #Whatsapp #Whats_img {
+        height: 135px;
+        width: 100%;
+    }
+    #NBA_Whatsapp #Whatsapp #Bar_Whats {
+        width: 80%;
+    }
+}
 @media(max-width: 600px){
     #Woman {
         display: none;
+    }
+    #NFR_Vision{
+        margin-top: 20px;
+    }
+    #NBA_Whatsapp {
+        width: 80%;
+    }
+    #NBA_Whatsapp #NBA {
+        margin-right: 0;
+        width: 50%;
+    }
+    #NBA_Whatsapp #NBA #NBA_img {
+        height: 135px;
+        width: 100%;
+    }
+    #NBA_Whatsapp #NBA #Bar_NBA {
+        width: 80%;
+    }
+    #NBA_Whatsapp #Whatsapp {
+        width: 50%;
+    }
+    #NBA_Whatsapp #Whatsapp #Whats_img {
+        height: 135px;
+        width: 100%;
+    }
+    #NBA_Whatsapp #Whatsapp #Bar_Whats {
+        width: 80%;
     }
 }
 @media(max-width: 768px){
     #Woman {
         display: none;
     }
+    #NFR_Vision {
+        margin-top: 20px;
+    }
+    #NBA_Whatsapp {
+        width: 80%;
+    }
+    #NBA_Whatsapp #NBA {
+        margin-right: 0;
+        width: 50%;
+    }
+    #NBA_Whatsapp #NBA #NBA_img {
+        height: 135px;
+        width: 100%;
+    }
+    #NBA_Whatsapp #NBA #Bar_NBA {
+        width: 80%;
+    }
+    #NBA_Whatsapp #Whatsapp {
+        width: 50%;
+    }
+    #NBA_Whatsapp #Whatsapp #Whats_img {
+        height: 135px;
+        width: 100%;
+    }
+    #NBA_Whatsapp #Whatsapp #Bar_Whats {
+        width: 80%;
+    }
 }
 @media(max-width: 992px){
     #Woman {
         display: none;
     }
+    #NFR_Vision {
+        margin-top: 20px;
+    }
+    #NBA_Whatsapp {
+        width: 80%;
+    }
+    #NBA_Whatsapp #NBA {
+        margin-right: 0;
+        width: 40%;
+        margin-right: 20%;
+    }
+    #NBA_Whatsapp #NBA #NBA_img {
+        height: 135px;
+        width: 100%;
+    }
+    #NBA_Whatsapp #NBA #Bar_NBA {
+        width: 80%;
+    }
+    #NBA_Whatsapp #Whatsapp {
+        width: 40%;
+    }
+    #NBA_Whatsapp #Whatsapp #Whats_img {
+        height: 135px;
+        width: 100%;
+    }
+    #NBA_Whatsapp #Whatsapp #Bar_Whats {
+        width: 80%;
+    }
+
+    
 }
+
